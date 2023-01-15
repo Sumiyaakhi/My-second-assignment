@@ -1,0 +1,255 @@
+*{
+    
+    font-family: 'Open Sans', sans-serif;
+}
+/* styles for banner */
+.banner{
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 1920px;
+    height: 1322px;
+    padding-bottom: 20px;
+}
+.header{
+    color: #131313;
+    font-size: 45px;
+    padding-left: 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+  margin-right: 50px;
+
+}
+
+nav li{
+    font-size: 18px;
+    padding: 40px;
+    list-style: none;
+   
+}
+.banner-container{
+    text-align: center;
+}
+.banner-title{
+    font-weight: 700;
+font-size: 64px;
+
+}
+.banner-description{
+    color: #727272;
+
+}
+.btn-primary{
+    width: 180px;
+height: 64px;
+background: #FF900E;
+border-radius: 8px;
+color: #FFFFFF;
+font-size: 20px;
+border: none;
+}
+.banner-img{
+    margin:50px 140px 45px 140px;  
+    width: 1440px;
+    height: 700px;
+    border-radius:8px;
+    align-items: center;
+}
+/* style for container-1 */
+.team{
+    display: flex; 
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    border-radius: 8px; 
+    margin-left: 300px;
+}
+.container-1{
+    padding: 280px 300px 0px 170px;
+}
+.container-title{
+    font-weight: 500;
+font-size: 45px;
+}
+.title-style-1{
+    color: #727272;
+}
+.title-style-2{
+    color: #FF900E;
+}
+.container-description{
+    color: #727272;
+    padding-bottom: 30px;
+}
+/*style for container-2  */
+
+
+.feature-left{
+    padding: 200px 50px 0px 240px;
+}
+.feature-right{
+    padding: 50px 240px 0px 200px;
+}
+ .feature-brk{
+    display: flex;
+} 
+.feature{
+    display: flex;
+    align-items: center;
+   
+}
+.side-line{
+    background-color: #FF900E;
+    width: 5px;
+    height: 106px;
+}
+.feature-title{
+    font-weight: 700;
+font-size: 45px;
+color: #131313;
+padding-left: 20px;
+}
+.feature-desc{
+    font-weight: 400;
+    color: #727272;
+    /* padding-left :150px;  */
+}
+.feature-list{
+    margin-left: 40px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.feature-list h3{
+    font-size: 20px;
+}
+.feature-img{
+    background-image: url('../images/architect.png');
+    background-position: 50%;
+    width: 600px;
+    height: 700px;  
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    padding: 530px 350px 10px 0px;  
+} 
+.btn-secondary  h2 {
+    font-weight: 700;
+    font-size: 65px; 
+} 
+.btn-secondary p{
+    font-weight: 400;
+    font-size: 25px;
+
+}
+.btn-secondary{
+    background: #FF900E;
+border-radius: 8px;
+color: #FFFFFF;
+border: none;
+width: 350px;
+height: 220px;
+margin: 470px 30px ;
+padding-bottom: 5px;
+}
+/* styles for fact and icons */
+.facts{
+    padding-left: 250px;
+}
+.icons{
+    display: flex;
+    gap: 120px;
+    padding:50px 300px ;
+}
+.icon{
+    width: 240px;
+    height: 240px;
+    border: 1px solid #FF900E; 
+    border-radius: 8px;
+    text-align: center;
+    padding: 25px;
+}
+.icon-nmbr{
+    font-weight: 600;
+font-size: 45px;
+color: #424242;
+}
+.icon-desc{
+    font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+color: #727272;
+}
+.icons :hover{
+    background-color:#0effaf;
+    transform: scale(1.2) ;
+}
+/* style for sponsors */
+.sponsors{
+    text-align: center;
+   
+}
+.sponsors-logo{
+    display: flex;
+    padding: 50px 250px ;
+        text-align: center; 
+        gap:250px; 
+        filter: grayscale(100%);
+}
+/* style for self sections */
+.container-2{
+    display: flex;
+}
+.container-2 h2{
+    color: #727272;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.container-2 p{
+    color: #727272;
+    font: size 20px; 
+    padding-left: 20px;
+}
+.container-2 img{
+    width: 350px;
+    border-radius: 50px;
+    transition: width 5s;
+}
+.container-2 :hover{
+    width: 1000px;
+}
+  
+/* styles for footer section */
+footer p{
+    font-weight: 400;
+font-size: 20px;
+text-align: center;
+color: #424242;
+padding-top: 50px; 
+}
+.footer{
+    width: 1500px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 10px;
+    margin-left: 400px;
+    margin-bottom: 150px;
+}
+/* media query for mobile devices */
+/* @media only screen and (max-width:576px) {
+.banner nav, ul, h3 {
+    flex-direction: column;
+    margin: 0 auto;
+}
+.banner-img {
+    margin: 10px;
+}
+    
+} */
