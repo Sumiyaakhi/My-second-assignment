@@ -5,8 +5,6 @@
 /* styles for banner */
 .banner{
     background-color: rgba(255, 144, 14, 0.1);
-    width: 1920px;
-    height: 1322px;
     padding-bottom: 20px;
 }
 .header{
@@ -54,7 +52,7 @@ font-size: 20px;
 border: none;
 }
 .banner-img{
-    margin:50px 140px 45px 140px;  
+    margin:50px 140px 45px 440px;  
     width: 1440px;
     height: 700px;
     border-radius:8px;
@@ -243,13 +241,23 @@ padding-top: 50px;
     margin-bottom: 150px;
 }
 /* media query for mobile devices */
-/* @media only screen and (max-width:576px) {
+ @media screen and (max-width:576px) {
 .banner nav, ul, h3 {
     flex-direction: column;
-    margin: 0 auto;
+    margin: 0px;
+    padding: 0px;
 }
 .banner-img {
     margin: 10px;
 }
-    
-} */
+    .team-img{
+grid-template-columns: repeat(1,1fr);
+width: 100%;
+    }
+ .team,.sponsors-logo, .icons, .feature-brk, .container-2{
+    flex-direction: column;
+}
+footer{
+    width:100%;
+}
+} 
